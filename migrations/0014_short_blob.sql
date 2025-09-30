@@ -1,0 +1,1 @@
+ALTER TABLE "facilities" ADD COLUMN "created_by" varchar(255) DEFAULT 'your_clerk_admin_uuid' NOT NULL;

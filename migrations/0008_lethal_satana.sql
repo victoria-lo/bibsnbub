@@ -1,0 +1,1 @@
+ALTER TABLE "amenities" ADD COLUMN "icon" varchar(255) NOT NULL;

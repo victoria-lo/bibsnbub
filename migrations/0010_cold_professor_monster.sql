@@ -1,0 +1,1 @@
+ALTER TABLE "facility_amenities" ALTER COLUMN "quantity" DROP NOT NULL;

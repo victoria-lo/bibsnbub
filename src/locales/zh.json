@@ -1,0 +1,53 @@
+{
+  "Index": {
+    "meta_title": "点点BB",
+    "meta_by": "创建者：",
+    "meta_description": "为人父母的点点滴滴."
+  },
+  "CategoryScroller": {
+    "all": "全部",
+    "diaper_changing_station": "尿布更换站",
+    "lactation_room": "哺乳室"
+  },
+  "SearchBar": {
+    "placeholder": "搜索位置...",
+    "clear_location": "清除位置",
+    "use_current_location": "使用当前位置",
+    "your_location": "您所在的位置",
+    "suggestions": "建议",
+    "no_results": "未找到结果。"
+  },
+  "FacilityPage": {
+    "meta_title": "设施页面",
+    "meta_description": "所选设施的详细信息。",
+    "unknown_address": "未知地址",
+    "unknown_facility_type": "未知设施类型",
+    "no_description_available": "暂无描述",
+    "how_to_access": "如何到达："
+  },
+  "SignIn": {
+    "meta_title": "登录",
+    "meta_description": "登录到您的账户。"
+  },
+  "SignUp": {
+    "meta_title": "注册",
+    "meta_description": "创建一个新账户。"
+  },
+  "UserProfile": {
+    "meta_title": "用户资料",
+    "meta_description": "查看和编辑您的个人资料。"
+  },
+  "Navigation": {
+    "meta_title": "仪表板",
+    "meta_description": "您的账户和活动概览。",
+    "user_profile_link": "用户资料",
+    "sign_out": "登出",
+    "sign_in": "登录",
+    "sign_up": "注册",
+    "logo": "Bibs & Bub",
+    "explore": "探索",
+    "add_new": "新增",
+    "guest": "访客",
+    "back": "返回"
+  }
+}

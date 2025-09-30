@@ -1,0 +1,29 @@
+[
+  {
+    "locationAddress": "2 Orchard Turn, Singapore 238801",
+    "facilityTypeName": "Baby Room",
+    "floor": "B1",
+    "isAccessible": true,
+    "description": "Near female restrooms",
+    "hasDiaperChangingStation": true,
+    "hasLactationRoom": true
+  },
+  {
+    "locationAddress": "333A Orchard Rd, Singapore 238897",
+    "facilityTypeName": "Baby Room",
+    "floor": "L2",
+    "isAccessible": true,
+    "description": "Near restroom",
+    "hasDiaperChangingStation": true,
+    "hasLactationRoom": false
+  },
+  {
+    "locationAddress": "14 Scotts Rd, Singapore 228213",
+    "facilityTypeName": "Diaper Changing Station",
+    "floor": "L4",
+    "isAccessible": true,
+    "description": "Near escalator",
+    "hasDiaperChangingStation": true,
+    "hasLactationRoom": false
+  }
+]

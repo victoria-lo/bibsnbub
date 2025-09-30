@@ -1,0 +1,29 @@
+[
+  {
+    "facilityDesc": "Near female restrooms",
+    "amenities": [
+      { "name": "Sink", "quantity": 1 },
+      { "name": "Hot Water Dispenser", "quantity": 1 },
+      { "name": "Cold Water Dispenser", "quantity": 1 },
+      { "name": "Diaper Changing Station", "quantity": 2 },
+      { "name": "Lactation Room", "quantity": 1 }
+    ]
+  },
+  {
+    "facilityDesc": "Near restroom",
+    "amenities": [
+      { "name": "Diaper Changing Station", "quantity": 1 },
+      { "name": "Sink", "quantity": 1 },
+      { "name": "Bench", "quantity": 1 }
+    ]
+  },
+  {
+    "facilityDesc": "Near escalator",
+    "amenities": [
+      { "name": "Diaper Changing Station", "quantity": 1 },
+      { "name": "Sink", "quantity": 1 },
+      { "name": "Hot Water Dispenser", "quantity": 1 },
+      { "name": "Cold Water Dispenser", "quantity": 1 }
+    ]
+  }
+]

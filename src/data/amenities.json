@@ -1,0 +1,11 @@
+[
+  { "name": "Sink", "description": "A sink for washing hands", "isMultipleApplicable": true },
+  { "name": "Hot Water Dispenser", "description": "A dispenser for hot water", "isMultipleApplicable": true },
+  { "name": "Cold Water Dispenser", "description": "A dispenser for cold water", "isMultipleApplicable": true },
+  { "name": "Diaper Changing Station", "description": "A station for changing diapers", "isMultipleApplicable": true },
+  { "name": "WiFi", "description": "Wireless internet access", "isMultipleApplicable": false },
+  { "name": "Trash Bin", "description": "A bin for disposing trash", "isMultipleApplicable": true },
+  { "name": "Electrical Outlet", "description": "An outlet for charging devices", "isMultipleApplicable": true },
+  { "name": "Lactation Room", "description": "A private room for nursing mothers", "isMultipleApplicable": true },
+  { "name": "Bench", "description": "A bench for seating", "isMultipleApplicable": false }
+]

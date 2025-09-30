@@ -1,0 +1,53 @@
+{
+  "Index": {
+    "meta_title": "Bibs & Bub",
+    "meta_by": "by",
+    "meta_description": "For the bits and bobs of parenthood."
+  },
+  "CategoryScroller": {
+    "all": "All",
+    "diaper_changing_station": "Changing Station",
+    "lactation_room": "Lactation Room"
+  },
+  "SearchBar": {
+    "placeholder": "Search for a location...",
+    "clear_location": "Clear location",
+    "use_current_location": "Use Current Location",
+    "your_location": "Your location",
+    "suggestions": "Suggestions",
+    "no_results": "No results found."
+  },
+  "FacilityPage": {
+    "meta_title": "Facility Page",
+    "meta_description": "Details about the selected facility.",
+    "unknown_address": "Unknown Address",
+    "unknown_facility_type": "Unknown Facility Type",
+    "no_description_available": "No description available",
+    "how_to_access": "How To Access:"
+  },
+  "SignIn": {
+    "meta_title": "Sign In",
+    "meta_description": "Sign in to your account."
+  },
+  "SignUp": {
+    "meta_title": "Sign Up",
+    "meta_description": "Create a new account."
+  },
+  "UserProfile": {
+    "meta_title": "User Profile",
+    "meta_description": "View and edit your profile."
+  },
+  "Navigation": {
+    "meta_title": "Navigation",
+    "meta_description": "Overview of your account and activities.",
+    "user_profile_link": "User Profile",
+    "sign_out": "Sign Out",
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up",
+    "logo": "Bibs & Bub",
+    "explore": "Explore",
+    "add_new": "Add",
+    "guest": "Guest",
+    "back": "Back"
+  }
+}

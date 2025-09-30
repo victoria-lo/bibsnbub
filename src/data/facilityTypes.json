@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Diaper Changing Station",
+    "slug": "diaper-changing-station",
+    "description": "Changing-only facility. No lactation amenities.",
+    "order": 1
+  },
+  {
+    "name": "Baby Room",
+    "slug": "baby-room",
+    "description": "Includes lactation area and diaper changing station and other child facilities.",
+    "order": 2
+  },
+  {
+    "name": "Lactation Room",
+    "slug": "lactation-room",
+    "description": "Lactation-only space. No diaper changing station.",
+    "order": 3
+  },
+  {
+    "name": "Restroom (Accessible)",
+    "slug": "restroom-accessible",
+    "description": "Accessible restroom with child facilities.",
+    "order": 4
+  },
+  {
+    "name": "Restroom (Ladies)",
+    "slug": "restroom-ladies",
+    "description": "Ladies' restroom with child facilities.",
+    "order": 5
+  },
+  {
+    "name": "Restroom (Men's)",
+    "slug": "restroom-mens",
+    "description": "Men's restroom with child facilities.",
+    "order": 6
+  },
+  {
+    "name": "Restroom (Family)",
+    "slug": "restroom-family",
+    "description": "Family restroom with child facilities.",
+    "order": 7
+  },
+  {
+    "name": "Restroom (Unisex)",
+    "slug": "restroom-unisex",
+    "description": "Unisex restroom with child facilities.",
+    "order": 8
+  }
+]

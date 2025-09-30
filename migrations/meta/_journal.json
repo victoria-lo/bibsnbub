@@ -1,0 +1,132 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1725916508373,
+      "tag": "0000_init-db",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1742100598302,
+      "tag": "0001_rich_blade",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1743347757954,
+      "tag": "0002_previous_tyrannus",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1743817987613,
+      "tag": "0003_simple_black_tom",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1743922776023,
+      "tag": "0004_dashing_cerebro",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1743924328259,
+      "tag": "0005_steep_madelyne_pryor",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1743926933980,
+      "tag": "0006_solid_mathemanic",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1746544173505,
+      "tag": "0007_charming_randall_flagg",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1746544593140,
+      "tag": "0008_cuddly_justin_hammer",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1746545772144,
+      "tag": "0009_normal_hedge_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1746545872814,
+      "tag": "0010_cold_professor_monster",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1746547599178,
+      "tag": "0011_big_zuras",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1746592003848,
+      "tag": "0012_sturdy_puff_adder",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1746888410181,
+      "tag": "0013_tearful_ken_ellis",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1746889306241,
+      "tag": "0014_short_blob",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1749311755327,
+      "tag": "0015_mixed_spirit",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1749312676741,
+      "tag": "0016_wide_frightful_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1759132530996,
+      "tag": "0017_watery_black_cat",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "building": "ION Orchard Mall",
+    "block": 2,
+    "road": "Orchard Turn",
+    "address": "2 Orchard Turn, Singapore 238801",
+    "postalCode": "238801",
+    "latitude": 1.3040,
+    "longitude": 103.8318
+  },
+  {
+    "building": "Mandarin Gallery",
+    "block": "333A",
+    "road": "Orchard Rd",
+    "address": "333A Orchard Rd, Singapore 238897",
+    "postalCode": "238897",
+    "latitude": 1.3019,
+    "longitude": 103.8376
+  },
+  {
+    "building": "Far East Plaza",
+    "block": 14,
+    "road": "Scotts Rd",
+    "address": "14 Scotts Rd, Singapore 228213",
+    "postalCode": "228213",
+    "latitude": 1.3077,
+    "longitude": 103.8320
+  }
+]

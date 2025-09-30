@@ -1,0 +1,47 @@
+import withBundleAnalyzer from '@next/bundle-analyzer';
+import { withSentryConfig } from '@sentry/nextjs';
+import createNextIntlPlugin from 'next-intl/plugin';
+import './src/libs/Env';
+
+const withNextIntl = createNextIntlPlugin('./src/libs/i18n.ts');
+
+const bundleAnalyzer = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
+
+/** @type {import('next').NextConfig} */
+export default withSentryConfig(
+  bundleAnalyzer(
+    withNextIntl({
+      eslint: {
+        dirs: ['.'],
+      },
+      poweredByHeader: false,
+      reactStrictMode: true,
+      serverExternalPackages: ['@electric-sql/pglite'],
+      images: {
+        domains: ['img.clerk.com'],
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: '**.supabase.co',
+          },
+        ],
+      },
+    }),
+  ),
+  {
+    org: 'nextjs-boilerplate-org',
+    project: 'nextjs-boilerplate',
+    silent: !process.env.CI,
+    widenClientFileUpload: true,
+    reactComponentAnnotation: {
+      enabled: true,
+    },
+    tunnelRoute: '/monitoring',
+    hideSourceMaps: true,
+    disableLogger: true,
+    automaticVercelMonitors: true,
+    telemetry: false,
+  },
+);

@@ -1,0 +1,1 @@
+ALTER TABLE "facility_amenities" ADD CONSTRAINT "facility_amenities_facility_id_amenity_id_pk" PRIMARY KEY("facility_id","amenity_id");
