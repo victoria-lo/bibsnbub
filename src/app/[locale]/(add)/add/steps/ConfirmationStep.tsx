@@ -8,6 +8,7 @@ type ConfirmationStepProps = {
   onSubmit: () => void;
   facilityTypes: { id: string; name: string }[];
   amenities: { id: string; name: string }[];
+  isSubmitting?: boolean;
 };
 
 const Row = ({ label, value }: { label: string; value?: React.ReactNode }) => (
@@ -17,7 +18,7 @@ const Row = ({ label, value }: { label: string; value?: React.ReactNode }) => (
   </div>
 );
 
-const ConfirmationStep: React.FC<ConfirmationStepProps> = ({ formData, onSubmit, facilityTypes, amenities: amenitiesMaster }) => {
+const ConfirmationStep: React.FC<ConfirmationStepProps> = ({ formData, onSubmit, facilityTypes, amenities: amenitiesMaster, isSubmitting }) => {
   const {
     facilityTypeId,
     building,
@@ -96,7 +97,9 @@ const ConfirmationStep: React.FC<ConfirmationStepProps> = ({ formData, onSubmit,
       </div>
 
       <div className="flex flex-col sm:flex-row gap-2 sm:justify-end">
-        <Button onClick={onSubmit} className="w-full sm:w-auto">Submit</Button>
+        <Button onClick={onSubmit} disabled={!!isSubmitting} aria-busy={!!isSubmitting} className="w-full sm:w-auto">
+          {isSubmitting ? 'Submitting…' : 'Submit'}
+        </Button>
       </div>
     </div>
   );

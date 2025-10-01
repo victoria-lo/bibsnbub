@@ -47,6 +47,7 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
   const params = useParams();
   const locale = typeof params?.locale === 'string' ? params.locale : Array.isArray(params?.locale) ? params?.locale?.[0] : 'en';
   const [images, setImages] = useState<LocalUpload[]>([]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (!isSignedIn) {
@@ -54,11 +55,7 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
     }
   }, [isSignedIn, router]);
 
-  // Restore cached progress on mount (dev- and prod-safe; client-side only)
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return;
-    }
     try {
       const raw = sessionStorage.getItem('add-facility-form');
       if (raw) {
@@ -76,7 +73,6 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
     } catch {}
   }, []);
 
-  // Cache progress on changes
   useEffect(() => {
     if (typeof window === 'undefined') {
       return;
@@ -87,12 +83,17 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
   }, [formData, images, step]);
 
   const handleFinalSubmit = async () => {
+    if (isSubmitting) {
+      return; // prevent duplicate clicks
+    }
     if (!userId) {
       toast.error('User ID is required to submit the form.');
       return;
     }
 
     try {
+      toast.loading('Submitting facility…');
+      setIsSubmitting(true);
       const response = await fetch('/api/submitFacility', {
         method: 'POST',
         headers: {
@@ -141,6 +142,12 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
     } catch (err) {
       console.error('Error submitting facility:', err);
       toast.error('An unexpected error occurred. Please try again.');
+    } finally {
+      // Dismiss any loading toast(s)
+      try {
+        toast.dismiss();
+      } catch {}
+      setIsSubmitting(false);
     }
   };
 
@@ -168,6 +175,7 @@ export default function AddFacilityPage({ amenities, facilityTypes }: AddFacilit
             onSubmit={handleFinalSubmit}
             facilityTypes={facilityTypes}
             amenities={amenities}
+            isSubmitting={isSubmitting}
           />
         );
       default:
