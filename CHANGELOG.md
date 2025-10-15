@@ -1,3 +1,21 @@
+# 1.0.0 (2025-10-15)
+
+
+### Bug Fixes
+
+* **ci:** fix database url missing in ci.yml and gh token missing in release.yml ([#22](https://github.com/victoria-lo/bibsnbub/issues/22)) ([ad22fef](https://github.com/victoria-lo/bibsnbub/commit/ad22feffe0dd3442f268efa80eef02b9797dd1da)), closes [#20](https://github.com/victoria-lo/bibsnbub/issues/20)
+* fix release.yml again ([1b96597](https://github.com/victoria-lo/bibsnbub/commit/1b96597a05b7f27387db1e2c4a93fb5aef2fb794))
+* keep search bar from auto-selecting first character ([#18](https://github.com/victoria-lo/bibsnbub/issues/18)) ([f93fed2](https://github.com/victoria-lo/bibsnbub/commit/f93fed27aec66b702d43e5d226a2f69647bc89cc))
+* release.yml ([4cf6121](https://github.com/victoria-lo/bibsnbub/commit/4cf6121093ee3be6abe0a8305ccdd4ab928471b6))
+* restroom icons ([#32](https://github.com/victoria-lo/bibsnbub/issues/32)) ([d813f17](https://github.com/victoria-lo/bibsnbub/commit/d813f17c4d25ec42d70ecb8f9a858a53a3ba9e22))
+* Viewport gap issue ([#27](https://github.com/victoria-lo/bibsnbub/issues/27)) ([713a3ed](https://github.com/victoria-lo/bibsnbub/commit/713a3ede338ce826ccfae2302e9433f2ae70b5bd))
+
+
+### Features
+
+* add description to facility card ([#17](https://github.com/victoria-lo/bibsnbub/issues/17)) ([d3f4201](https://github.com/victoria-lo/bibsnbub/commit/d3f42015c44289c34333c300df196aebc6bbd4c5))
+* add diaper and linen dispensers to amenities list ([#23](https://github.com/victoria-lo/bibsnbub/issues/23)) ([9f62d26](https://github.com/victoria-lo/bibsnbub/commit/9f62d263100c783a3d2dbd1d7605a26e418de047))
+
 ## [2.7.1](https://github.com/Women-Devs-SG/bibsnbub/compare/v2.7.0...v2.7.1) (2025-09-30)
 
 
