@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/victoria-lo/bibsnbub/compare/v1.0.0...v1.0.1) (2025-10-15)
+
+
+### Bug Fixes
+
+* fix release.yml 3rd time ([65a50a2](https://github.com/victoria-lo/bibsnbub/commit/65a50a2077c13d9ad03fd69b5490b157871c03fa))
+
 # 1.0.0 (2025-10-15)
 
 
