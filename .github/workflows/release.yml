@@ -1,12 +1,13 @@
 name: Release
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: [CI]
     types:
       - completed
     branches:
-      - main
+      - test-release
 
 jobs:
   release:
@@ -16,7 +17,6 @@ jobs:
 
     name: Create a new release
     runs-on: ubuntu-latest
-    environment: staging
     permissions:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
